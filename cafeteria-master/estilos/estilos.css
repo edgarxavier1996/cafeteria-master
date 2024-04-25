@@ -263,3 +263,68 @@ footer .copyright{
 }
 
 
+
+/*----media queryes---*/
+@media screen and (max-width:800px){
+    header .contenedor{
+        position: static;
+        height: auto;
+    }
+    header .texto{
+        position: static;
+        margin: 100px 0;
+    }
+    header .menu {
+        position: static;
+        text-align: center;
+        
+    }
+
+    header .menu .a{
+        margin-bottom: 20px 10px 0;
+    }
+    header .texto {
+        position: static;
+        font-size: 30px;
+    }
+    header .texto h3{
+        position: static;
+        font-size: 18px;
+    }
+    
+    .main .acerca-de .foto{
+        width: 100%;
+        position: relative;
+
+    } 
+
+    .main .acerca-de article{
+        position: relative;
+        width: 100%;
+        top: -50px;
+    }
+
+    .main .menu{
+        padding-top: 300px;
+    }
+    .main .menu article{
+        width: 100%;
+        float: left;
+        padding: 20px;
+    }
+
+    .main .galeria .foto{
+    
+    
+        width: 50%;
+        float: left;
+        display: inline;
+    }
+    .main .mapa{
+        width: 400%;
+        overflow: hidden;
+    }
+
+}
+
+
